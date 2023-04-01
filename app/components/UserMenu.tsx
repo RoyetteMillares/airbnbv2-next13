@@ -1,16 +1,26 @@
+'use client'
+
 import React from 'react'
 
 const UserMenu = () => {
     return (
       <div className="relative">
             <div className="flex flex-row items-center gap-3">
-                <div onClick={() => {} }
+                <div
+                    onClick={() => {}}
                 className='
                      hiddend md:block text-sm font-semibold py-3 px-4 rounded-full transition hover:bg-neutral-100
                     cursor-pointer
                 '>
-                    
-               </div>
+                      Airbnb your home
+                </div>
+                <div onClick={() => { }}
+                    className='
+                    p-4 md:py-1 md:px-2 border-radius-[1px] border-neutral-200
+                    flex flex-row items-center gap-3 roundef-full cursor-pointer hover:shadow-md transition
+                '>
+
+                </div>
             </div>
       </div>
     );
