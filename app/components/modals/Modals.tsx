@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react'
 import {IoMdClose} from 'react-icons/io'
+import Button from '../Button'
 
 interface ModalProps{
     isOpen?: boolean
@@ -93,7 +94,7 @@ const Modals: React.FC<ModalProps> = ({ isOpen, onClose, onSubmit, title, body, 
                                 <div
                                     className='flex flex-row items-center gap-4 w-full'
                                 >
-                                    button
+                                    <Button label='sample button' />
                                     </div>
                             </div>
                         </div>
